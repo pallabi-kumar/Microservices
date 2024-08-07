@@ -1,0 +1,10 @@
+server:
+  port: 8761
+
+eureka:
+  instance:
+    hostname: localhost
+
+  client:
+    register-with-eureka: false #This avoid to self register of ServiceRegistry in ServiceRegistry Project
+    fetch-registry: false       #This avoid to self fetch of ServiceRegistry in ServiceRegistry Project
